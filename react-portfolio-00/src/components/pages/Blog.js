@@ -1,24 +1,51 @@
 import React from 'react';
-
+import pdf from '../../Assets/docs/ErnestoSanchezResume.pdf';
 export default function Blog() {
-  return (
-    <div>
-      <h1>Blog Page</h1>
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
-    </div>
-  );
+    return (
+        <div className='container text-center'>
+            <br></br>
+            <br></br>
+            <a
+                className='col-2 text-white '
+                href={pdf}
+                target='_blank'
+                rel='noopener noreferrer'
+            >
+                <h1>
+                    <u>Click Here to View and/or Download My Resumè!</u>
+                </h1>
+            </a>
+            <br></br>
+            <br></br>
+            <h2>
+                <u>Full Stack Related Skills.</u>
+            </h2>
+            <br></br>
+            <h3>Front End Proficiencies: </h3>
+            <ul className='list-group w-50 mx-auto'>
+                <li className='list-group-item'> HTML</li>
+                <li className='list-group-item'> CSS</li>
+                <li className='list-group-item'> JavaScript</li>
+                <li className='list-group-item'> React</li>
+                <li className='list-group-item'> jQuery</li>
+                <li className='list-group-item'> Responsive Designs</li>
+                <li className='list-group-item'> Bootstrap</li>
+            </ul>
+            <br></br>
+            <br></br>
+            <h3>Back End Proficiencies: </h3>
+            <ul className='list-group w-50 mx-auto'>
+                <li className='list-group-item'> APIs</li>
+                <li className='list-group-item'> Node.js</li>
+                <li className='list-group-item'> Express</li>
+                <li className='list-group-item'> SQL & Sequelize</li>
+                <li className='list-group-item'> Mongo DB & Mongoose</li>
+                <li className='list-group-item'>REST</li>
+                <li className='list-group-item'>GraphQL</li>
+            </ul>
+            <br></br>
+            <br></br>
+            <br></br>
+        </div>
+    );
 }
