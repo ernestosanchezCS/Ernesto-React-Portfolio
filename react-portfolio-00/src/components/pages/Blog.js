@@ -38,6 +38,7 @@ export default function Blog() {
                 <li className='list-group-item'> APIs</li>
                 <li className='list-group-item'> Node.js</li>
                 <li className='list-group-item'> Express</li>
+                <li className='list-group-item'> AWS</li>
                 <li className='list-group-item'> SQL & Sequelize</li>
                 <li className='list-group-item'> Mongo DB & Mongoose</li>
                 <li className='list-group-item'>REST</li>

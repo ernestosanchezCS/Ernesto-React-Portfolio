@@ -3,8 +3,8 @@ export default function About() {
     return (
         <div className='container col-9'>
             <br></br>
-            <h1>Projects</h1>
-            <p className=''>
+            <h1 className='profileName'>Projects</h1>
+            <p className='profileName'>
                 A few of my projects below. <br></br> Click on the images to
                 visit respective repositories, and click on View Live
                 Application if available to visit the live application.

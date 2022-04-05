@@ -7,7 +7,7 @@ export default function Home() {
             <br></br>
             <div className='row bg-dark bg-gradient rounded'>
                 <h1 className='col-7 text-white mt-auto mb-auto'>
-                    <h1 className='text-center '>
+                    <h1 className='text-center profileName'>
                         Hello! <br></br>I'm Ernesto Sanchez <br></br> Wecome to
                         my Portfolio!
                     </h1>
@@ -19,7 +19,7 @@ export default function Home() {
                 />
             </div>
             <br></br>
-            <h1>About Me</h1>
+            <h1 className='profileName'>About Me</h1>
             <p>
                 <br></br>
                 Hello! My name is Ernesto. I am 28 years old.<br></br>

@@ -6,9 +6,9 @@ export default function Contact() {
             <br></br>
             <br></br>
             <h1>
-                <u>Contact Page</u>
+                <u className='profileName'>Contact Page</u>
             </h1>
-            <h4 className=''>
+            <h4 className='profileName'>
                 Here is my contact information. <br></br> Feel free to reach
                 out! Or message me from this page.
             </h4>
@@ -21,7 +21,7 @@ export default function Contact() {
                     <h5>Phone: </h5>
                     <p>(647) 786-8014</p>
                 </div>
-                <Form className='col-8 mx-auto'>
+                <Form className='col-5 mx-auto'>
                     <Form.Group
                         className='mb-3'
                         controlId='exampleForm.ControlInput1'
