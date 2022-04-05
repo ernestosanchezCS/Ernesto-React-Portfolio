@@ -3,6 +3,8 @@ import { Form, Button } from 'react-bootstrap';
 export default function Contact() {
     return (
         <div className='container'>
+            <br></br>
+            <br></br>
             <h1>
                 <u>Contact Page</u>
             </h1>
