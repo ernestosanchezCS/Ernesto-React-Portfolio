@@ -8,8 +8,8 @@ export default function Home() {
             <div className='row bg-dark bg-gradient rounded'>
                 <h1 className='col-7 text-white mt-auto mb-auto'>
                     <h1 className='text-center '>
-                        Hello amigo! <br></br>I'm Ernesto Sanchez <br></br>{' '}
-                        Wecome to my Portfolio!
+                        Hello! <br></br>I'm Ernesto Sanchez <br></br> Wecome to
+                        my Portfolio!
                     </h1>
                 </h1>
                 <img
