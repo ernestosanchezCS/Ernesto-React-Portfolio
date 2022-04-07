@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Ernesto-React-Portfolio/static/css/main.1e4a7724.css",
-    "main.js": "/Ernesto-React-Portfolio/static/js/main.09f0f44c.js",
+    "main.js": "/Ernesto-React-Portfolio/static/js/main.b70708c1.js",
     "static/media/IMG_5302.jpeg": "/Ernesto-React-Portfolio/static/media/IMG_5302.7b90ad44488ff1c8f256.jpeg",
-    "static/media/ErnestoResumeApril2022.pdf": "/Ernesto-React-Portfolio/static/media/ErnestoResumeApril2022.12a5a2f123ffadd44c98.pdf",
+    "static/media/ErnestoResumeApril2022.pdf": "/Ernesto-React-Portfolio/static/media/ErnestoResumeApril2022.e700af7fb1100951d0c3.pdf",
     "index.html": "/Ernesto-React-Portfolio/index.html",
     "main.1e4a7724.css.map": "/Ernesto-React-Portfolio/static/css/main.1e4a7724.css.map",
-    "main.09f0f44c.js.map": "/Ernesto-React-Portfolio/static/js/main.09f0f44c.js.map"
+    "main.b70708c1.js.map": "/Ernesto-React-Portfolio/static/js/main.b70708c1.js.map"
   },
   "entrypoints": [
     "static/css/main.1e4a7724.css",
-    "static/js/main.09f0f44c.js"
+    "static/js/main.b70708c1.js"
   ]
 }
